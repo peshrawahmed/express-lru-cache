@@ -1,4 +1,8 @@
 # express-lru
+
+### THIS PACKAGE IS UNDER CONSTRUCTION
+
+
 [![NPM version](http://img.shields.io/npm/v/express-lru.svg?style=flat)](https://www.npmjs.org/package/express-lru)
 [![Build Status](http://img.shields.io/travis/naturalatlas/express-lru/master.svg?style=flat)](https://travis-ci.org/naturalatlas/express-lru)
 [![Coverage Status](http://img.shields.io/coveralls/naturalatlas/express-lru/master.svg?style=flat)](https://coveralls.io/r/naturalatlas/express-lru)
