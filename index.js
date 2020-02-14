@@ -45,7 +45,7 @@ class ExpressLruCache {
         return this.loader.peek(key);
     }
 
-    middlewarwwe(options = {}) {
+    middleware(options = {}) {
         const _self = this;
         if (options && typeof options !== 'object')
             throw new Error('options expected to be an object');

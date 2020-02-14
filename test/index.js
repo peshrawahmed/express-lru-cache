@@ -12,7 +12,7 @@ function runsequence(routePattern, expectSkip, route, options, test, done) {
 
     // wrap the route to count the number of times it's executed
     let executions = 0;
-    app.get(routePattern, Cacher.middlewarwwe(options), function(
+    app.get(routePattern, Cacher.middleware(options), function(
         req,
         res,
         next
