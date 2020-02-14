@@ -37,8 +37,8 @@ class ExpressLruCache {
         return this.loader.keys();
     }
 
-    has() {
-        return this.loader.has();
+    has(key) {
+        return this.loader.has(key);
     }
 
     peek(key) {
