@@ -7,18 +7,6 @@ COVERALLS=node_modules/.bin/coveralls
 test:
 	npm run test-ci
 
-test-ci-coverage:
-	npm install coveralls
-	npm install istanbul
-	@rm -rf coverage
-	$(ISTANBUL) cover $(_MOCHA) --report lcovonly -- -R tap
-
-	@echo
-	@echo Sending report to coveralls.io...
-	@cat ./coverage/lcov.info | $(COVERALLS)
-	@rm -rf ./coverage
-	@echo Done
-
 release:
 ifeq ($(strip $(version)),)
 	@echo "\033[31mERROR:\033[0;39m No version provided."

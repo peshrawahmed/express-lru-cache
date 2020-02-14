@@ -1,6 +1,6 @@
 {
-  "name": "@peshraw/express-lru-cache",
-  "version": "1.0.0",
+  "name": "express-lru-cache",
+  "version": "1.0.0-alpha.1",
   "description": "Varnish-like cache middleware for Express with abilities to read, write, delete and reset the cache while the process is running.",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,9 @@
     "supertest": "^0.15.0"
   },
   "dependencies": {
-    "async-cache": "0.1.5"
+    "async-cache": "0.1.5",
+    "coveralls": "^3.0.9",
+    "istanbul": "^0.4.5"
   },
   "directories": {
     "test": "test"

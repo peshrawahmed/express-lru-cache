@@ -1,0 +1,41 @@
+{
+    "globals": {
+        "describe": true,
+        "before": true,
+        "it": true
+    },
+    "plugins": [],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "no-console": 0,
+        "require-atomic-updates": 0,
+        "linebreak-style": ["error", "unix"],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "semi": ["error", "always"]
+    }
+}
