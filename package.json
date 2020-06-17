@@ -28,15 +28,15 @@
     "async": "^0.9.0",
     "chai": "^2.2.0",
     "express": "^4.12.3",
-    "mocha": "^7.0.1",
-    "supertest": "^0.15.0",
     "extend": "^2.0.2",
+    "mime": "^1.4.1",
+    "mocha": "^7.2.0",
     "superagent": "^3.7.0",
-    "mime": "^1.4.1"
+    "supertest": "^0.15.0"
   },
   "dependencies": {
     "async-cache": "1.1.0",
-    "coveralls": "^3.0.9",
+    "coveralls": "^3.1.0",
     "istanbul": "^0.4.5"
   },
   "directories": {
