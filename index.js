@@ -71,7 +71,7 @@ class ExpressLruCache {
                     var nocache = res.statusCode && res.statusCode !== 200;
                     callback(nocache, {
                         body: body,
-                        headers: res._headers,
+                        headers: res.getHeaders(),
                         status: res.statusCode
                     });
                 };
