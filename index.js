@@ -65,7 +65,7 @@ class ExpressLruCache {
                         (typeof body === 'object' || Array.isArray(body)) &&
                         !Buffer.isBuffer(body)
                     ) {
-                        body = new Buffer(JSON.stringify(body), 'utf8');
+                        body = new Buffer.from(JSON.stringify(body), 'utf8');
                     }
                     // we skip caching by returning an "error" to async-cache)
                     var nocache = res.statusCode && res.statusCode !== 200;
