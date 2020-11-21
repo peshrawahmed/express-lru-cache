@@ -1,6 +1,6 @@
 {
   "name": "express-lru-cache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Varnish-like cache middleware for Express with abilities to read, write, delete and reset the cache while the process is running.",
   "main": "index.js",
   "scripts": {
