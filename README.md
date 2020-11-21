@@ -1,6 +1,6 @@
 # express-lru-cache
 
-[![NPM version](https://img.shields.io/npm/v/express-lru-cache.svg?style=flat)](https://www.npmjs.org/package/express-lru)
+[![NPM version](https://img.shields.io/npm/v/express-lru-cache.svg?style=flat)](https://www.npmjs.org/package/express-lru-cache)
 
 [Express](http://expressjs.com/) middleware that serves as a stopgap for [Varnish](http://en.wikipedia.org/wiki/Varnish_%28software%29) – for times when you don't have time to set up Varnish or want something simpler.
 **This package is a copy of [express-lru](https://www.npmjs.com/package/express-lru) with some extra abilities for getting and deleting single or mutliple keys**
